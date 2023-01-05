@@ -11,26 +11,22 @@ function PortfolioItem({ title, imgUrl, stack, link, sourceCode }) {
         />
       </a>
       <div className="w-full p-4">
-        <h3 className="text-lg md:text-xl mb-2 md: mb-3 font-semibold">
+        <h3 className="text-lg md:text-xl mb-2 md: mb-3 font-bold dark:text-white">
           {title}
         </h3>
         <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
           {stack.map((item) => (
-            <span className="inline-block px-2 py-1 font-semibold border-2 border-stone-900 rounded-md mb-4 dark:border-white">
+            <span className="inline-block px-2 py-1 font-semibold border-2 rounded-md mb-4 dark:border-white">
               {item}
             </span>
           ))}
         </p>
         <div className="flex flex-wrap gap-2 font-semibold">
-          <a
-            className="cursor-pointer hover:underline"
-            target="_blank"
-            href={link}
-          >
+          <a className="cursor-pointer underline" target="_blank" href={link}>
             Live Preview
           </a>
           <a
-            className="cursor-pointer hover:underline"
+            className="cursor-pointer underline"
             target="_blank"
             href={sourceCode}
           >
