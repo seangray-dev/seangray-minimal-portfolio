@@ -1,5 +1,12 @@
 export default [
   {
+    title: "Tip Calculator App",
+    imgUrl: "/assets/tip-calculator-desktop-preview.jpg",
+    stack: ["React", "Vite"],
+    link: "https://seangray-dev.github.io/FEM-tip-calculator-app/",
+    sourceCode: "https://github.com/seangray-dev/FEM-tip-calculator-app",
+  },
+  {
     title: "Quote Generator App",
     imgUrl: "/assets/quote-generator-desktop-preview.jpg",
     stack: ["HTML", "CSS", "JavaScript", "API"],
@@ -34,12 +41,5 @@ export default [
     link: "https://seangray-dev.github.io/Pricing-Component-With-Toggle-Master/",
     sourceCode:
       "https://github.com/seangray-dev/Pricing-Component-With-Toggle-Master",
-  },
-  {
-    title: "Social Proof Section",
-    imgUrl: "/assets/social-proof-desktop-preview.jpg",
-    stack: ["HTML", "SCSS/SASS"],
-    link: "https://seangray-dev.github.io/Social-Proof-Section/",
-    sourceCode: "https://github.com/seangray-dev/Social-Proof-Section",
   },
 ];
