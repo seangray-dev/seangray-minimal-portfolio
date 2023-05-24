@@ -7,8 +7,8 @@ export default [
     sourceCode: 'https://github.com/seangray-dev/Entertainment-Web-App',
   },
   {
-    title: 'Audiophile E-Commerce Website',
-    imgUrl: 'public/assets/audiophile-preview.jpg',
+    title: 'Audiophile E-Commerce',
+    imgUrl: '/assets/audiophile-preview.jpg',
     stack: ['React', 'Vite', 'TailWindCSS'],
     link: 'https://audiophile-seangray-dev.vercel.app/',
     sourceCode: 'https://github.com/seangray-dev/Audiophile',
